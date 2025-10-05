@@ -1,0 +1,24 @@
+{
+  "best_params": {
+    "n_estimators": 176,
+    "max_depth": 5,
+    "min_samples_split": 10,
+    "min_samples_leaf": 5,
+    "max_features": 0.286249542874297,
+    "ccp_alpha": 0.04978068270425892,
+    "random_state": 42
+  },
+  "meta": {
+    "X_shape": [
+      41,
+      26
+    ],
+    "y_shape": [
+      41
+    ],
+    "X_hash": "0a746d2fc9bba4c75d492e3d2f89b857",
+    "y_hash": "f88e32df624b4aa4ddd2ead23a3d6ed2",
+    "search_seed": 42,
+    "eval_seed": 42
+  }
+}
