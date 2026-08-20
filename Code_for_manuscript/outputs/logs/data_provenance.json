@@ -1,0 +1,57 @@
+{
+  "mode": "cached_local_output",
+  "n_cities": 41,
+  "n_unique_city_keys": 41,
+  "required_columns": [
+    "IV1",
+    "IV2",
+    "year_1",
+    "Region_1",
+    "PMC_T",
+    "PMC_I",
+    "PMC_Frequency",
+    "PMC_BERT",
+    "Dep_reg"
+  ],
+  "source_files": [
+    {
+      "path": "data/policies_text.xlsx",
+      "exists": true,
+      "size": 308326,
+      "sha256": "2eefb5d7704bebe6bf8c9fd0736717bd3a88c85940d1c02885fff7b798109e51"
+    },
+    {
+      "path": "data/validity_data.xlsx",
+      "exists": true,
+      "size": 913703,
+      "sha256": "d75da9b5b63204bb1f05af5300638e30f77d2a1a94c69446e716057a7039b71c"
+    },
+    {
+      "path": "data/pmc_data.xlsx",
+      "exists": true,
+      "size": 953405,
+      "sha256": "1faa8393185af4c8a680088948b9e8f5dfc0a0608c60aef4f37881e00552c7ff"
+    },
+    {
+      "path": "data/policy_identification_filled.xlsx",
+      "exists": true,
+      "size": 18346,
+      "sha256": "5bb59d32b9a7d7965ed8595f1e8aae301a264dd6bc6766c2b206de66a28116fa"
+    },
+    {
+      "path": "docs/revised_sections_3_4_v2.md",
+      "exists": false
+    },
+    {
+      "path": "data/bert-base-chinese",
+      "exists": false
+    }
+  ],
+  "target_combined_data": "outputs/combined_data_10.4.xlsx",
+  "dep_reg_audit": {
+    "definition": "packaged 41-city combined-data cache",
+    "source": "outputs/combined_data_10.4.xlsx",
+    "engine_path": null,
+    "cache_mode": true
+  }
+}

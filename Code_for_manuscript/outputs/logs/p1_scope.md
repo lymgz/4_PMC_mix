@@ -1,0 +1,1 @@
+P1 uses a five-component Gower distance: three categorical release-rule fields and two quantitative fields. Text distance is computed separately for PMC-T, PMC-I, PMC-Frequency and PMC-BERT. Discordant-pair counts are descriptive measurement-validity evidence, not causal tests.

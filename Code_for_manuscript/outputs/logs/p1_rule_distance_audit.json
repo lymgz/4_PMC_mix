@@ -1,0 +1,31 @@
+{
+  "source_file": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Policy Modeling Consistency Improvement Method II\\code\\Code_for_10.4v_manuscript_public\\data\\policy_identification_filled.xlsx",
+  "source_sheet": "City_audit",
+  "n_cities": 41,
+  "categorical_components": [
+    "basis_category",
+    "release_trigger_category",
+    "schedule_form_category",
+    "intermediate_steps_category",
+    "terminal_condition_category"
+  ],
+  "quantitative_ranking_fields": [
+    "n_release_steps",
+    "share_drawable_at_topout",
+    "final_retained_share"
+  ],
+  "missing_counts": {
+    "n_release_steps": 21,
+    "share_drawable_at_topout": 18,
+    "final_retained_share": 25
+  },
+  "quantitative_coding_rule": "Only explicit percentages or explicit numbered release clauses in the retained evidence excerpt plus full Policies_text.xlsx text are used; values above 100% are rejected and missing remains missing.",
+  "distance_components": [
+    "basis_category",
+    "release_trigger_category",
+    "schedule_form_category",
+    "n_release_steps",
+    "final_retained_share"
+  ],
+  "distance_note": "Gower uses three categorical components plus two quantitative components, matching Revised Sections 3 and 4; share_drawable_at_topout is reserved for H1 ranking concordance."
+}

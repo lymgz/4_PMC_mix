@@ -1,0 +1,27 @@
+{
+  "status": "ok",
+  "models": [
+    {
+      "model": "B1",
+      "status": "ok",
+      "n_features": 8
+    },
+    {
+      "model": "B2",
+      "status": "ok",
+      "n_features": 16
+    }
+  ],
+  "exploratory_only": true,
+  "n_cities": 41,
+  "seed": 42,
+  "n_estimators": 1000,
+  "rf_param_hash": "ce6ca82c326e584d8d688a7bedd72e06f508088c933485bfbfa222c82aab7fd0",
+  "tuning_scope": "M0_only_frozen_all_models",
+  "causal_interpretation": false,
+  "shap_interaction_values_used": false,
+  "outputs": [
+    "shap_exploratory_global.csv",
+    "shap_exploratory_city_tier.csv"
+  ]
+}

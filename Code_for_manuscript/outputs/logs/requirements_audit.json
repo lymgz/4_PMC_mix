@@ -1,0 +1,123 @@
+{
+  "status": "通过",
+  "n_checks": 19,
+  "n_pass": 19,
+  "n_fail": 0,
+  "checks": [
+    {
+      "requirement": "41-city keyed data with Dep_reg",
+      "status": "通过",
+      "evidence": "n_cities=41; target=Dep_reg",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Shared RepeatedKFold 5x20 manifest",
+      "status": "通过",
+      "evidence": "rows=820; splits=100",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Parallel M0-M4 representation table",
+      "status": "通过",
+      "evidence": "models=['M0', 'M1', 'M2', 'M3', 'M4']; fold_rows=500",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "M0-only tuning and frozen RF contract",
+      "status": "通过",
+      "evidence": "tuning_scope=M0_only; runtime_hash=ce6ca82c326e584d8d688a7bedd72e06f508088c933485bfbfa222c82aab7fd0; frozen_hash=ce6ca82c326e584d8d688a7bedd72e06f508088c933485bfbfa222c82aab7fd0",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "IV3/IV4/target excluded from predictors",
+      "status": "通过",
+      "evidence": "forbidden_hits=[]",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "P1 820-pair Gower audit and four text distances",
+      "status": "通过",
+      "evidence": "pairs=820; summary_rows=4; gower_0_1=True",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "41-city manually coded release attributes",
+      "status": "通过",
+      "evidence": "rule_rows=41; distribution_rows=19",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "H1 policy and Dep-operational concordance layers",
+      "status": "通过",
+      "evidence": "rank_pairs=6; layer_counts={'policy_observed': 3, 'dep_operational': 3}; policy_missing={'n_release_steps': 21, 'share_drawable_at_topout': 18, 'final_retained_share': 25}",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "41-city Dep operational H1 bridge",
+      "status": "通过",
+      "evidence": "rows=41; coverage={'dep_n_release_steps': 41, 'dep_share_drawable_at_topout': 17, 'dep_final_retained_share': 21}; mapping_version=dep-operational-h1-v1",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "No legacy matrix consumer for X1-X10",
+      "status": "通过",
+      "evidence": "legacy_consumers=[]; authoritative=['run_08_reviewer_tables.py', 'run_11_pca_h1.py']",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Removed PCA products do not enter Section 5",
+      "status": "通过",
+      "evidence": "legacy_outputs_present=[]",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "H2 paired deltas and rank agreement",
+      "status": "通过",
+      "evidence": "paired_rows=4; rank_pairs=10",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "B0-B1-B2 incremental block comparison",
+      "status": "通过",
+      "evidence": "models=['B0', 'B1', 'B2']; delta_rows=3",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Exploratory SHAP boundary and provenance",
+      "status": "通过",
+      "evidence": "status=ok; interaction_values=False; hash=ce6ca82c326e584d8d688a7bedd72e06f508088c933485bfbfa222c82aab7fd0",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "LPR level sensitivity",
+      "status": "通过",
+      "evidence": "rates=[1.0, 1.5, 2.0, 3.0]; pure_multiplier=True",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Section 5 Table 5-10 and Figure 3-6 asset bundle",
+      "status": "通过",
+      "evidence": "tables=['descriptive_statistics.csv', 'h1_attribute_distribution.csv', 'h1_rank_concordance.csv', 'p1_discordance_summary.csv', 'tab_block_complexity.csv', 'tab_representation_contrast.csv']; figures=['fig_delta_r2_distributions.png', 'fig_p1_text_rule_distance.png', 'fig_rank_displacement.png', 'fig_shap_exploratory_bar.png']",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Appendix Figure A1 retained-variable correlation bundle",
+      "status": "通过",
+      "evidence": "files=7; n=41; variables=7; panel_a_stars=True; panel_b_underlying_spearman_stars=True; panel_b_star_color=white",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Appendix Table A1-A5",
+      "status": "通过",
+      "evidence": "appendix_ok=True",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    },
+    {
+      "requirement": "Interpretive scope notes",
+      "status": "通过",
+      "evidence": "predictive/measurement-validity/attribution boundary notes present",
+      "scope": "Code 10.4 formal evidence and Section 5 assets"
+    }
+  ],
+  "design": "JHBE Revised Sections 3 and 4 v2; Code 10.4 Gower/P1/H1/H2 evidence bundle"
+}

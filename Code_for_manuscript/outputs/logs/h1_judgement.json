@@ -1,0 +1,30 @@
+{
+  "criterion": "H1 fails only if all three ranking pairs have Kendall tau >= 0.7 and bootstrap interval excludes 0.5; missing policy values are not imputed and Dep proxies are reported as a separate layer.",
+  "h1_judgement": "qualified_incomplete_quantitative_coding",
+  "layers": {
+    "policy_observed": {
+      "h1_judgement": "qualified_incomplete_quantitative_coding",
+      "n_pairs_with_estimable_tau": 2,
+      "n_rank_pairs": 3
+    },
+    "dep_operational": {
+      "h1_judgement": "H1_supported_or_qualified_by_divergent_rankings",
+      "n_pairs_with_estimable_tau": 3,
+      "n_rank_pairs": 3
+    }
+  },
+  "n_cities": 41,
+  "bootstrap_n": 1000,
+  "seed": 42,
+  "policy_quantitative_missing_counts": {
+    "n_release_steps": 21,
+    "share_drawable_at_topout": 18,
+    "final_retained_share": 25
+  },
+  "dep_operational_coverage": {
+    "dep_n_release_steps": 41,
+    "dep_share_drawable_at_topout": 17,
+    "dep_final_retained_share": 21
+  },
+  "interpretation_scope": "descriptive rule heterogeneity; Dep layer is an operational proxy and carries no causal policy effect or mechanism claim"
+}

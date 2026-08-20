@@ -1,0 +1,31 @@
+{
+  "source_file": "data/dep_operational_attributes_41cities.csv",
+  "source_workbook": "separately published Modelling Dep project; raw engine not bundled",
+  "n_cities": 41,
+  "mapping_version": "dep-operational-h1-v1",
+  "stage_semantics": {
+    "topout": "主体/封顶",
+    "decoration": "装修",
+    "record": "竣备/备案",
+    "registration": "确权/登记"
+  },
+  "coverage": {
+    "dep_n_release_steps": 41,
+    "dep_share_drawable_at_topout": 17,
+    "dep_final_retained_share": 21
+  },
+  "stage_mapping_status_counts": {
+    "partial_named_milestones": 27,
+    "complete_named_milestones": 14
+  },
+  "topout_status_counts": {
+    "not_estimable:topout_stage_name_unmapped": 24,
+    "cumulative_same_denominator_stage_shares": 17
+  },
+  "final_retained_status_counts": {
+    "not_estimable:registration_stage_name_unmapped": 20,
+    "terminal_stage_share:within_cohort_amount_share": 11,
+    "terminal_stage_share:monthly_revenue_stage_ratio": 10
+  },
+  "interpretation_boundary": "These are Dep-derived operational proxies. They must not be reported as policy-observed values without city-level source or expert mapping evidence."
+}
