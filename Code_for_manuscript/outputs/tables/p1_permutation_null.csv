@@ -1,0 +1,5 @@
+﻿representation,n_pairs,B,seed,rule_cut_q3,text_cut_q1,observed_rho,null_rho_p2_5,null_rho_p97_5,observed_discordant,null_count_p2_5,null_count_p97_5,min_detectable_abs_rho,inside_band,scope
+PMC_T,820,1000,42,0.692308,0.4,-0.026478,-0.098208,0.134438,57,38,67,0.134438,True,descriptive P1 measurement-validity evidence; not causal
+PMC_I,820,1000,42,0.692308,0.666667,0.016859,-0.102044,0.13411,54,36,65,0.13411,True,descriptive P1 measurement-validity evidence; not causal
+PMC_F,820,1000,42,0.692308,0.678346,0.022519,-0.102252,0.140264,49,35,67,0.140264,True,descriptive P1 measurement-validity evidence; not causal
+PMC_BERT,820,1000,42,0.692308,1.104996,0.014921,-0.084408,0.112433,58,39,63,0.112433,True,descriptive P1 measurement-validity evidence; not causal
