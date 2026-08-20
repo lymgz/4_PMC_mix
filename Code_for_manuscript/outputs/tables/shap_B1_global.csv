@@ -1,0 +1,9 @@
+﻿model,feature,label,mean_abs_SHAP,signed_mean_SHAP,RF_impurity_importance,rank_by_mean_abs_SHAP,fit_scope,exploratory_only,interpretation_scope
+B1,IV1,Housing price,87.22812380961275,-3.0917872035266387,0.18920320996125836,1,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_Frequency,PMC-Frequency,65.06178913221268,-4.922928679746406,0.23373989301849382,2,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,year_1,Policy year (control),24.336547395379895,1.2502142973619512,0.16872444593029695,3,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_BERT,PMC-BERT,19.866149082438184,2.607255192180601,0.1374870943343955,4,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_I,PMC-I,16.699974859685636,1.6226803470500673,0.08030637143106836,5,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,IV2,Absorption period,12.883719842343405,1.7012697737695386,0.09475389759336204,6,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_T,PMC-T,6.275084161788377,1.3944108671437314,0.06650200256313388,7,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,Region_1,City tier (control),4.090317566438344,0.0944328503193474,0.02928308516799112,8,full sample,True,model attribution visualization; not causal; no hypothesis test

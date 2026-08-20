@@ -1,0 +1,22 @@
+﻿record_type,source_file,model,target,n_features,R2_mean,R2_sd,cv_protocol,interpretation_scope
+parallel_representation,canonical_results.csv,M0,Dep_reg,4,-0.0399336075395781,0.0289741927742802,RepeatedKFold(5x20),predictive comparison only; no causal interpretation
+parallel_representation,canonical_results.csv,M1,Dep_reg,5,-0.0399937482533929,0.0263444949340307,RepeatedKFold(5x20),predictive comparison only; no causal interpretation
+parallel_representation,canonical_results.csv,M2,Dep_reg,5,-0.0402123090086744,0.0245372644979308,RepeatedKFold(5x20),predictive comparison only; no causal interpretation
+parallel_representation,canonical_results.csv,M3,Dep_reg,5,-0.0278445785004961,0.026088729014187,RepeatedKFold(5x20),predictive comparison only; no causal interpretation
+parallel_representation,canonical_results.csv,M4,Dep_reg,5,-0.0396928176027926,0.0237974781081878,RepeatedKFold(5x20),predictive comparison only; no causal interpretation
+incremental_block,block_results.csv,B0,Dep_reg,4,-0.039933607539578,0.0289741927742802,RepeatedKFold(5x20),predictive comparison; no causal interpretation
+incremental_block,block_results.csv,B1,Dep_reg,8,-0.0275825195473424,0.0311097306847293,RepeatedKFold(5x20),predictive comparison; no causal interpretation
+incremental_block,block_results.csv,B2,Dep_reg,16,-0.0340731753108362,0.0404801831576751,RepeatedKFold(5x20),predictive comparison; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,M0_full,Dep_reg,4,-0.0399336075395781,0.0289741927742802,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,M0_no_IV1,Dep_reg,3,-0.0758445089034507,0.0046387685361391,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,M0_no_IV2,Dep_reg,3,-0.0412052268878058,0.0241178174207424,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,M0_controls_only,Dep_reg,2,-0.0737145595417633,0.0053873104625558,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B1_full,Dep_reg,8,-0.0275825195473424,0.0311097306847293,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B1_no_PMC_T,Dep_reg,7,-0.0246791356720838,0.0290413449670158,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B1_no_PMC_I,Dep_reg,7,-0.0229597240758208,0.0299698843213893,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B1_no_PMC_Frequency,Dep_reg,7,-0.0331671240109259,0.029107649900678,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B1_no_PMC_BERT,Dep_reg,7,-0.0219990230742813,0.0304785004177691,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B2_full,Dep_reg,16,-0.0340731753108362,0.0404801831576751,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B2_no_interactions,Dep_reg,8,-0.0275825195473424,0.0311097306847293,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B2_no_IV1_interactions,Dep_reg,12,-0.0330278987136025,0.0334991110854184,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation
+targeted_ablation,targeted_ablation_results.csv,B2_no_IV2_interactions,Dep_reg,12,-0.027024652263855,0.040520715796834,RepeatedKFold(5x20),targeted predictive ablation; no causal interpretation

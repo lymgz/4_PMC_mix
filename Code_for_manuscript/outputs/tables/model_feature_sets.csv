@@ -1,0 +1,25 @@
+﻿model,feature_order,feature,label,is_control,is_interaction
+M0,1,IV1,Housing price,False,False
+M0,2,IV2,Absorption period,False,False
+M0,3,year_1,Policy year (control),True,False
+M0,4,Region_1,City tier (control),True,False
+M1,1,IV1,Housing price,False,False
+M1,2,IV2,Absorption period,False,False
+M1,3,year_1,Policy year (control),True,False
+M1,4,Region_1,City tier (control),True,False
+M1,5,PMC_T,PMC-T,False,False
+M2,1,IV1,Housing price,False,False
+M2,2,IV2,Absorption period,False,False
+M2,3,year_1,Policy year (control),True,False
+M2,4,Region_1,City tier (control),True,False
+M2,5,PMC_I,PMC-I,False,False
+M3,1,IV1,Housing price,False,False
+M3,2,IV2,Absorption period,False,False
+M3,3,year_1,Policy year (control),True,False
+M3,4,Region_1,City tier (control),True,False
+M3,5,PMC_Frequency,PMC-Frequency,False,False
+M4,1,IV1,Housing price,False,False
+M4,2,IV2,Absorption period,False,False
+M4,3,year_1,Policy year (control),True,False
+M4,4,Region_1,City tier (control),True,False
+M4,5,PMC_BERT,PMC-BERT,False,False

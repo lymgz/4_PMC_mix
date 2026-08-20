@@ -1,0 +1,25 @@
+﻿model,feature,label,mean_abs_SHAP,signed_mean_SHAP,RF_impurity_importance,rank_by_mean_abs_SHAP,fit_scope,exploratory_only,interpretation_scope
+B1,IV1,Housing price,87.22812380961275,-3.0917872035266387,0.18920320996125836,1,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_Frequency,PMC-Frequency,65.06178913221268,-4.922928679746406,0.23373989301849382,2,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,year_1,Policy year (control),24.336547395379895,1.2502142973619512,0.16872444593029695,3,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_BERT,PMC-BERT,19.866149082438184,2.607255192180601,0.1374870943343955,4,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_I,PMC-I,16.699974859685636,1.6226803470500673,0.08030637143106836,5,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,IV2,Absorption period,12.883719842343405,1.7012697737695386,0.09475389759336204,6,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,PMC_T,PMC-T,6.275084161788377,1.3944108671437314,0.06650200256313388,7,full sample,True,model attribution visualization; not causal; no hypothesis test
+B1,Region_1,City tier (control),4.090317566438344,0.0944328503193474,0.02928308516799112,8,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV1_x_PMC_I,IV1 × PMC_I,62.8478535834363,-4.7454259708014845,0.09313712336197834,1,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,PMC_Frequency,PMC-Frequency,45.22488062764364,-2.71478373570277,0.14459182646089458,2,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV1_x_PMC_T,IV1 × PMC_T,40.60097432928691,-0.5330711228686869,0.07423096335940334,3,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV1,Housing price,39.18079163328803,0.6577012868820511,0.08165843454351299,4,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV2_x_PMC_Frequency,IV2 × PMC_Frequency,25.259707983147734,4.924390438728888,0.06099768503524031,5,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,year_1,Policy year (control),17.721729316309556,0.5244504481811588,0.1058772520105437,6,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV2_x_PMC_BERT,IV2 × PMC_BERT,16.768373859588774,0.46394189055816937,0.09753288100830743,7,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV1_x_PMC_BERT,IV1 × PMC_BERT,15.082325837865225,0.9796833445106231,0.04907136550054405,8,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,PMC_BERT,PMC-BERT,13.644433923835855,2.211997728817354,0.07273676697932836,9,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV2,Absorption period,7.891210477026102,0.2855000032095794,0.03248092677710326,10,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,PMC_I,PMC-I,7.491805347116803,1.3087519972374189,0.03954694721439706,11,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV1_x_PMC_Frequency,IV1 × PMC_Frequency,6.1279762443554,0.8904359079379677,0.04008485239961086,12,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV2_x_PMC_T,IV2 × PMC_T,5.1605724830592345,1.618340310658695,0.036618829984619655,13,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,PMC_T,PMC-T,3.7805322558547036,0.8899126047522928,0.032049133918148696,14,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,IV2_x_PMC_I,IV2 × PMC_I,2.0592010068693662,-0.02596704052074551,0.025171884874936247,15,full sample,True,model attribution visualization; not causal; no hypothesis test
+B2,Region_1,City tier (control),1.4003943280497326,-0.4744813379084926,0.014213126571431247,16,full sample,True,model attribution visualization; not causal; no hypothesis test

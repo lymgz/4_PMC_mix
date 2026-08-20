@@ -1,0 +1,20 @@
+﻿attribute,category,n_cities,share,n_absent,note,evidence_layer
+Basis of the supervised amount,approved construction cost,32,0.7804878048780488,3,,policy_observed
+Basis of the supervised amount,presale proceeds,6,0.14634146341463414,3,,policy_observed
+Basis of the supervised amount,with multiplier or floor,21,0.5121951219512195,0,non-exclusive flag,policy_observed
+Class of release trigger,verified physical milestones,5,0.12195121951219512,0,,policy_observed
+Class of release trigger,named administrative certificates,7,0.17073170731707318,0,,policy_observed
+Class of release trigger,successive inspection stages,17,0.4146341463414634,0,,policy_observed
+Class of release trigger,unspecified construction progress,8,0.1951219512195122,0,,policy_observed
+Class of release trigger,no intermediate steps,4,0.0975609756097561,0,,policy_observed
+Form of the schedule,retained balance,16,0.3902439024390244,12,,policy_observed
+Form of the schedule,drawdown ceiling,13,0.3170731707317073,12,,policy_observed
+Intermediate steps,specified,16,0.3902439024390244,0,,policy_observed
+Intermediate steps,none specified,4,0.0975609756097561,0,,policy_observed
+Intermediate steps,specified but count unavailable,21,0.5121951219512195,0,,policy_observed
+Terminal condition,5% retained,15,0.36585365853658536,0,non-exclusive flag,policy_observed
+Terminal condition,other,26,0.6341463414634146,0,non-exclusive flag,policy_observed
+Terminal condition,condition beyond first registration,12,0.2926829268292683,0,non-exclusive flag,policy_observed
+Dep operational stage count,active release stages,41,1.0,0,counted from active stage columns in the Dep catalog,dep_operational
+Dep operational quantitative proxy,cumulative share through mapped topout,17,0.4146341463414634,24,not policy-observed; see status and mapping columns,dep_operational
+Dep operational quantitative proxy,mapped terminal-stage share,21,0.5121951219512195,20,not policy-observed; see status and mapping columns,dep_operational

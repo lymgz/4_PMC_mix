@@ -1,0 +1,4 @@
+﻿ranking_a,ranking_b,n_cities_ranked,kendall_tau,ci_low,ci_high,decision_rule_met,field_a,field_b,bootstrap_n,evidence_layer,ranking_definition
+active Dep release stages,cumulative Dep share through mapped topout,17,0.09184151623839405,-0.5812482967598943,0.681303670644221,False,dep_n_release_steps,dep_share_drawable_at_topout,1000,dep_operational,Dep-derived proxy; requires stage mapping and common-denominator status
+active Dep release stages,mapped Dep terminal-stage share,21,-0.3899240260538184,-0.6390224598676346,-0.05584612853656367,False,dep_n_release_steps,dep_final_retained_share,1000,dep_operational,Dep-derived proxy; requires stage mapping and common-denominator status
+cumulative Dep share through mapped topout,mapped Dep terminal-stage share,14,0.13081398803354571,-0.5237693149692436,0.7118263711577109,False,dep_share_drawable_at_topout,dep_final_retained_share,1000,dep_operational,Dep-derived proxy; requires stage mapping and common-denominator status
