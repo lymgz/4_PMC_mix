@@ -1,0 +1,27 @@
+{
+  "definition": "Dep_reg = deterministic rule-based supervised-fund exposure proxy",
+  "formula": "Dep_reg_c = sum_i sum_k amount_i,k(fixed market inputs, city release rules) * hold_i,k(fixed schedule, city cohort windows) * (fixed annual LPR * multiplier / 12)",
+  "variation_source": [
+    "city-specific release-stage labels",
+    "city-specific release proportions",
+    "city-specific cohort windows and source rows"
+  ],
+  "fixed_inputs": {
+    "lpr_annual": 0.0345,
+    "floors": 30.0,
+    "completion_months": 27.141666666666666,
+    "pre_sale_months": 15.416666666666666,
+    "top_out_months": 20.141666666666666,
+    "decoration_months": 7.0,
+    "record_duration_months": 2.0,
+    "registration_lag_months": 8.0,
+    "average_price": 11522.0,
+    "absorption_months": 26.4
+  },
+  "lpr_multiplier": 3.0,
+  "n_cities": 41,
+  "engine_path": "C:\\bgy\\C-documents\\碧桂园\\综合管理\\职称\\博士相关\\UPM\\Policy Modeling Consistency Improvement Method II\\code\\Code_for_10.4v_manuscript\\Modelling Dep\\41_Cities_Dep\\multi_city_dep_model.py",
+  "calculation_function": "calculate_city",
+  "iv3_role": "descriptive only; not predictor/rank/SHAP input",
+  "iv4_role": "descriptive overlap audit only; not predictor/rank/SHAP input"
+}
