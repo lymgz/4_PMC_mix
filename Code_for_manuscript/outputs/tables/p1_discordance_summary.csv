@@ -1,5 +1,0 @@
-﻿measure,n_pairs,q1_text_cut,q3_rule_cut,n_discordant,chance_benchmark,ratio_to_chance,top_cities,spearman_text_rule,scope
-PMC_T,820,0.3999999999999999,0.6923076923076923,57,51,1.1176470588235294,"上海 (10), 上饶 (10), 六安 (10), 九江 (7), 珠海 (7)",-0.02647797118893854,counts are descriptive because each city occurs in 40 pairs; no pair-level significance test
-PMC_I,820,0.666666666666667,0.6923076923076923,54,51,1.0588235294117647,"六安 (10), 信阳 (10), 上海 (9), 肇庆 (7), 上饶 (6)",0.01685884489577861,counts are descriptive because each city occurs in 40 pairs; no pair-level significance test
-PMC_F,820,0.6783458210749069,0.6923076923076923,49,51,0.9607843137254902,"信阳 (9), 上饶 (8), 佛山 (8), 上海 (7), 肇庆 (7)",0.02251900361793518,counts are descriptive because each city occurs in 40 pairs; no pair-level significance test
-PMC_BERT,820,1.1049962938671545,0.6923076923076923,58,51,1.1372549019607843,"信阳 (11), 深圳 (10), 上海 (10), 肇庆 (6), 九江 (5)",0.014920957575649884,counts are descriptive because each city occurs in 40 pairs; no pair-level significance test

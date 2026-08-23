@@ -1,8 +1,0 @@
-{
-  "authoritative_x1_x10_consumers": [
-    "run_08_reviewer_tables.py",
-    "run_11_pca_h1.py"
-  ],
-  "legacy_matrix_x1_x10_consumers": [],
-  "interpretation": "pmc_data.xlsx remains a Dep/LPR source; its legacy matrix is not an X1-X10 source."
-}

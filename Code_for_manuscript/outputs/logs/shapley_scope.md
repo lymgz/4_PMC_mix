@@ -1,1 +1,0 @@
-Shapley values decompose the predictive R² difference among correlated PMC representations. They are attribution quantities, not causal effects or hypothesis-test p-values. The contributions must sum to R²(full PMC block)−R²(M0).

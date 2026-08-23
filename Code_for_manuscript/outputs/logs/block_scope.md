@@ -1,1 +1,0 @@
-B0→B1→B2 is an incremental specification sequence. The IV×PMC products are constructed feature interactions; they do not establish causal moderation or a mechanism. The key complexity criterion is the paired B2−B1 distribution.
